@@ -89,10 +89,10 @@ function gameLoop() {
 
 
     if (!clicando) {
-        sk.anim(81, 0, 2, sprites);
+        sk.anim(108, 0, 2, sprites);
 
     } else {
-        sk.anim(81, 2, 24, sprites);
+        sk.anim(108, 2, 24, sprites);
     }
 
     requestAnimationFrame(gameLoop);
