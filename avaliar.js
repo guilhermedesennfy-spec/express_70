@@ -29,7 +29,7 @@ function loadImages(paths) {
 }
 
 const spritePaths = [
-    ...Array.from({ length: 24 }, (_, i) => `express_70_4/${i}.png`)
+    ...Array.from({ length: 29 }, (_, i) => `express_70_4/${i}.png`)
 ];
 
 
@@ -92,8 +92,10 @@ function gameLoop() {
         sk.anim(216, 0, 2, sprites);
 
     } else {
-        if (sk.fram<24){
-        sk.anim(216, 2, 24, sprites);} else{sk.anim(216, 24, 24, sprites);}
+        if (sk.fram<28){
+        sk.anim(216, 2, 28, sprites);
+        } else
+        {sk.anim(216, 27, 28, sprites);}
     }
 
     requestAnimationFrame(gameLoop);
