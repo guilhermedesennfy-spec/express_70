@@ -92,7 +92,7 @@ function gameLoop() {
         sk.anim(216, 0, 2, sprites);
 
     } else {
-        sk.anim(216, 2, 28, sprites);
+        sk.anim(216, 2, 29, sprites);
 
     }
 
